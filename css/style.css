@@ -195,9 +195,9 @@ width: 100%;
   filter: grayscale(100%);
 }
 footer{
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   justify-items: center;
   background-color: #FFF4E7;
   border-radius: 8px;
@@ -237,7 +237,10 @@ footer{
     margin-left: 20px;
   }
 
-
+ footer{
+  
+  padding-left: 20px;
+ }
 
 }
 /* medium size device */
